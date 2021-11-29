@@ -47,6 +47,7 @@ export default function ImageSrollbar({ data }) {
 					<Image
 						placeholder="blur"
 						blurDataURL={item.url}
+						objectFit="cover"
 						src={item.url}
 						width={1000}
 						height={500}
